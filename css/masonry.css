@@ -1,0 +1,17 @@
+.grid {
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+.grid-item {
+	width: 374px;
+}
+
+.grid-item--width2 {
+	width: 185px;
+}
+
+.grid-item--width3 {
+	width: 124px;
+
+}

@@ -1,0 +1,539 @@
+body, p, h3, button, input {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 1.2em;
+}
+* {
+    transition: all 0.4s ease;
+}
+header {
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1160px;
+    text-align: center;
+}
+
+.buy {
+    height: 465px;
+    background: url(../images/main.jpg);
+    background-size: cover;
+}
+
+.dark {
+    background-color: rgba(6, 9, 11, 0.78);
+    height: 465px;
+}
+
+nav {
+    height: 119px;
+    background-color: rgba(93, 92, 87, 0.6);
+}
+
+.list {
+    margin: 0 auto;
+    margin-right: 4px;
+    list-style: none;
+    float: right;
+    margin-top: 50px;
+}
+
+    .list > li {
+        float: left;
+        text-align: center;
+    }
+
+        .list > li > a {
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            padding: 50px 10px;
+            border: none;
+            box-sizing: border-box;
+        }
+
+            .list > li > a:hover {
+                border-bottom: 2px solid #18cfab;
+                color: #18cfab;
+            }
+
+.logo {
+    margin-top: 26px;
+    float: left;
+}
+
+.material-icons {
+    color: white;
+    padding-left: 20px;
+}
+
+    .material-icons:hover {
+        color: #18cfab;
+        cursor: pointer;
+    }
+
+.txt1 {
+    padding-top: 245px;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.txt2 {
+    font-size: 79px;
+    font-weight: bold;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+
+.txt3 {
+    font-size: 34px;
+    color: #d4d4d4;
+    margin-bottom: 140px;
+}
+
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #18cfab;
+    border-radius: 4px;
+    border-top: 4px solid white;
+    box-sizing: border-box;
+    padding: 23px 35px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+    .btn:hover {
+        background-color: #00cbf6;
+    }
+#buttonload {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:  bold;
+    margin-bottom: 50px;
+    background-color: #18cfab;
+    border-radius: 4px;
+    padding: 23px;
+    color: white;
+    font-size: 14px;
+}
+
+#buttonload:hover {
+     background-color: #00cbf6;
+     cursor: pointer;
+}
+.loaded {
+display: none;
+
+}
+.container > a {
+    margin-left: 30px;
+}
+
+.blocks {
+    display: flex;
+   flex-wrap: nowrap;
+} 
+.blocks p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#block1, #block2, #block3, #block4 {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    width: 25%;
+    height: 372px;
+    box-sizing: border-box;
+    
+}
+#block1, #block3 {
+    background-color: #1c2a33;
+    border-top: 7px solid #18cfab;
+}
+#block1 p, #block3 p {
+    color: #18cfab;
+} 
+#block2, #block4 {
+    background-color: #18cfab;
+    border-top: 7px solid white;
+}
+#pic1 {
+    background: url(../images/sprite-pics.png) 0 0;
+    width: 62px;
+    height: 95px;
+}
+#pic2 {
+    background: url(../images/sprite-pics.png) -70px 17px;
+    width: 97px;
+    height: 95px;
+}
+#pic3 {
+    background: url(../images/sprite-pics.png) -185px 0;
+    width: 60px;
+    height: 97px;
+}
+#pic4 {
+    background: url(../images/sprite-pics.png) -263px 17px;
+    width: 100px;
+    height: 95px;
+}
+
+#pic1, #pic2, #pic3, #pic4 {
+    margin-bottom: 30px;
+}
+
+.service {
+    clear: both;
+ 
+}
+
+.amazing_work {
+    background-color: #f8fcfe;
+    padding-bottom: 70px;
+}
+    .service h3, .br-news h3, .amazing_work h3, .gallery h3 {
+        color: #4e4e4e;
+        font-size: 36px;
+        padding-top: 65px;
+        margin: 0 0 35px 0;
+    }
+
+    .service img {
+        margin-bottom: 35px;
+    }
+
+.description {
+    margin-left: 0;
+    list-style: none;
+    font-size: 16px;
+    clear: both;
+    padding-left: 0;
+}
+
+    .description > li {
+        position: relative;
+        box-sizing: border-box;
+        border: 1px solid #ebecec;
+        width: 16.666%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #878889;
+        float: left;
+        background-color: #f8fcfe;
+        margin-bottom: 30px;
+
+    }
+        .description > li:hover {
+            cursor: pointer;
+            background-color: #18cfab;
+            color: white;
+        }
+.sqr {
+    display: none;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #18cfab;
+    left: 45%;
+    bottom: -7px;
+    transform: rotate(45deg);
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 14px;
+    overflow: hidden;
+    padding-left: 0;  
+}
+.categories > li {
+        position: relative;
+        box-sizing: border-box;
+        border: 1px solid #ebecec;
+        padding: 28px 0;
+        width: 15%;
+        color: #878889;
+        float: left;
+        margin-bottom: 30px;
+        background-color: #ffffff;
+    }
+.categories > li:hover {
+    cursor: pointer;
+    color: #18cfab;
+    border-top: 1px solid  #18cfab;
+    font-weight: bold;
+}
+/* click on serveice*/
+.clicked {
+    background-color: #18cfab;
+    color: white;
+}
+
+.service p {
+    color: #878889;
+    text-align: justify;
+    padding: 25px 25px 25px 0;
+    margin-bottom: 100px;
+}
+
+.service #img1 {
+    text-align: left;
+    float: left;
+    margin-right: 25px;
+}
+
+.buy .txt11 {
+    color: #18cfab;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 125px;
+}
+
+.buy .txt22 {
+    color: #d8d8d8;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.buy .btn {
+    margin: 70px 0;
+}
+
+.br-news {
+    margin: 0 auto;
+    padding-bottom: 125px;
+}
+
+.flex {
+    margin-top: 45px;
+    color: #717171;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex2 {
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+     padding-bottom: 55px;
+}
+.group {
+    margin-right: 27px;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    position: relative;
+     background-color: #f8fcfe;
+}
+.img-info .blog_header {
+    text-align: left;
+    color: #878889;
+    font-size: 18px;
+    font-weight: bold;
+   margin: 10px 0 5px 20px;
+}
+.img-info .blog_autor {
+float: left;
+    color: #878889;
+    font-size: 14px;
+    padding: 0 12px 12px 20px;
+}
+.img-info .comments {
+  float: left;
+    color: #878889;
+    font-size: 14px;
+    padding: 0 12px 12px 7px;
+}
+.img-info span {
+    padding-left: 10px;
+}
+.calendar {
+    position: absolute;
+    font-size: 16px;
+    top: 0;
+    right: 0;
+    width: 60px;
+    background-color: #203e38;
+    color: #ffffff;
+    padding: 13px 5px;
+}
+     .group:hover {
+        cursor: pointer;
+     }
+    .group:hover .calendar {
+        background-color: #18cfab;
+        cursor: pointer;
+    }
+    .group:hover .blog_header {
+        color: #18cfab;
+        cursor: pointer;
+    }
+.text33 {
+    margin-bottom: 70px;
+}
+#whatPeopleSay {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    height: 840px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    clear: both;
+}
+    #whatPeopleSay h3 {
+        font-size: 36px;
+        padding-top: 90px;
+        color: #bbbbbb;
+    }
+
+    #whatPeopleSay h4 {
+        color: #18cfab;
+    }
+
+    #whatPeopleSay h6 {
+        color: #bbbbbb;
+    }
+
+    #whatPeopleSay img {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #whatPeopleSay #aboutUs {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5em;
+        color: #bbbbbb;
+        padding-bottom: 50px;
+    }
+.one-time  h4 {
+    text-transform: uppercase;
+    color: #18cfab;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.copyright {
+    height: 90px;
+    background-color: #22353f;
+}
+
+    .copyright p {
+        color: #bbbbbb;
+        padding-top: 45px;
+        margin: 0 auto;
+    }
+
+/*search form */
+.search {
+    background: transparent;
+    width: 70px;
+    border: none;
+    border-bottom: 1px solid #bbbbbb;;
+    outline: none;
+}
+
+
+/* preloader*/
+#preloader {
+    display: none;
+    position: relative;
+    top: 50px;
+    left: 45px;
+    width: 100%;
+    height: 100%;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #a4f4e4 ;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #18cfab;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #108971;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
